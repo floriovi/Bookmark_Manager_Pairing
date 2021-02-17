@@ -11,3 +11,4 @@ gem 'rspec'
 gem 'rubocop', require: false
 gem 'simplecov', require: false, group: :test
 gem 'sinatra'
+gem 'pg'

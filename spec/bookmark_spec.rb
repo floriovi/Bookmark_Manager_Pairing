@@ -6,8 +6,10 @@ RSpec.describe Bookmark do
       bookmarks = Bookmark.all
 
       expect(bookmarks).to include("https://makers.tech/")
-      expect(bookmarks).to include("https://github.com/makersacademy")
-      expect(bookmarks).to include("https://www.google.co.uk/")
+      expect(bookmarks).to include("http://www.google.com")
+      expect(bookmarks).to include("http://www.destroyallsoftware.com")
     end
   end
 end
+
+  

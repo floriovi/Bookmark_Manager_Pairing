@@ -3,7 +3,8 @@ feature 'Viewing bookmarks' do
     visit('/bookmarks')
 
     expect(page).to have_content "https://makers.tech/"
-    expect(page).to have_content "https://github.com/makersacademy"
-    expect(page).to have_content "https://www.google.co.uk/"
+    expect(page).to have_content "http://www.google.com"
+    expect(page).to have_content "http://www.destroyallsoftware.com"
   end
 end 
+  
