@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-
+ENV['ENVIRONMENT'] = 'test'
 # at the top of spec/spec_helper.rb
 require 'simplecov'
 SimpleCov.start

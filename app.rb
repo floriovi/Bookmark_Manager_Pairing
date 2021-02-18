@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-
+require './lib/bookmark'
 require 'sinatra/base'
 
 class BookmarkManager < Sinatra::Base
@@ -8,6 +8,8 @@ class BookmarkManager < Sinatra::Base
   end
 
   get '/bookmarks' do
+    p ENV
+
     @bookmarks = Bookmark.all
     erb(:'bookmarks/index')
   end
