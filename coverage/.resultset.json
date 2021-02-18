@@ -13,8 +13,18 @@
           null,
           null,
           1,
+          2,
+          2,
+          null,
+          null,
+          1,
           1,
           null,
+          null,
+          null,
+          1,
+          1,
+          1,
           1,
           1,
           null,
@@ -31,13 +41,13 @@
           null,
           1,
           1,
-          2,
-          2,
+          3,
+          3,
           null,
           0,
           null,
-          2,
-          8,
+          3,
+          10,
           null,
           null,
           null
@@ -69,6 +79,19 @@
           null
         ]
       },
+      "/Users/floriov/Projects/Projects_Makers/Bookmark_Manager_Pairing/spec/features/creating_bookmarks_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
       "/Users/floriov/Projects/Projects_Makers/Bookmark_Manager_Pairing/spec/features/viewing_bookmarks_spec.rb": {
         "lines": [
           null,
@@ -93,6 +116,6 @@
         ]
       }
     },
-    "timestamp": 1613651055
+    "timestamp": 1613658201
   }
 }
