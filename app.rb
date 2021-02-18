@@ -18,9 +18,7 @@ class BookmarkManager < Sinatra::Base
 
   # The below post route is known as a controller
   post '/bookmarks' do
-    url = params[:url]
-    conn = PG.connect(dbname: 'bookmark_manager_test')
-    conn.exec("INSERT INTO bookmarks (url) VALUES('#{url}');")
+    Bookmark.create(url: params[:url])
     redirect '/bookmarks'
   end
 

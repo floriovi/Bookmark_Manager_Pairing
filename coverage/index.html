@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2021-02-18T14:23:21+00:00">2021-02-18T14:23:21+00:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2021-02-18T14:33:35+00:00">2021-02-18T14:33:35+00:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -23,14 +23,14 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="green">
-  96.23%
+  95.0%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.28
+         1.37
        </span>
     </span> hits/line
     )
@@ -43,11 +43,11 @@
   </div>
 
   <div class="t-line-summary">
-    <b>53</b> relevant lines,
-    <span class="green"><b>51</b> lines covered</span> and
-    <span class="red"><b>2</b> lines missed. </span>
+    <b>60</b> relevant lines,
+    <span class="green"><b>57</b> lines covered</span> and
+    <span class="red"><b>3</b> lines missed. </span>
     (<span class="green">
-  96.23%
+  95.0%
 </span>
 )
   </div>
@@ -72,32 +72,32 @@
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#ab97cb735ce5d12a38c4fe60f2e3ec2f40a83eec" class="src_link" title="app.rb">app.rb</a></td>
-            <td class="green strong cell--number t-file__coverage">93.75 %</td>
-            <td class="cell--number">28</td>
-            <td class="cell--number">16</td>
-            <td class="cell--number">15</td>
+            <td class="green strong cell--number t-file__coverage">92.86 %</td>
+            <td class="cell--number">26</td>
+            <td class="cell--number">14</td>
+            <td class="cell--number">13</td>
             <td class="cell--number">1</td>
-            <td class="cell--number">1.06</td>
+            <td class="cell--number">1.07</td>
             
           </tr>
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#6cebe9f20523e93dfc51e19a144d012df9d0f51a" class="src_link" title="lib/bookmark.rb">lib/bookmark.rb</a></td>
-            <td class="yellow strong cell--number t-file__coverage">87.50 %</td>
-            <td class="cell--number">16</td>
-            <td class="cell--number">8</td>
-            <td class="cell--number">7</td>
-            <td class="cell--number">1</td>
-            <td class="cell--number">2.75</td>
+            <td class="yellow strong cell--number t-file__coverage">84.62 %</td>
+            <td class="cell--number">25</td>
+            <td class="cell--number">13</td>
+            <td class="cell--number">11</td>
+            <td class="cell--number">2</td>
+            <td class="cell--number">2.62</td>
             
           </tr>
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#74175cb8bd8390ebd5f2ee1d7dc348f0a1814fb8" class="src_link" title="spec/bookmark_spec.rb">spec/bookmark_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">22</td>
-            <td class="cell--number">12</td>
-            <td class="cell--number">12</td>
+            <td class="cell--number">30</td>
+            <td class="cell--number">16</td>
+            <td class="cell--number">16</td>
             <td class="cell--number">0</td>
             <td class="cell--number">1.00</td>
             
@@ -147,7 +147,7 @@
     <h3>app.rb</h3>
     <h4>
       <span class="green">
-  93.75%
+  92.86%
 </span>
 
       lines covered
@@ -156,8 +156,8 @@
     
 
     <div class="t-line-summary">
-      <b>16</b> relevant lines.
-      <span class="green"><b>15</b> lines covered</span> and
+      <b>14</b> relevant lines.
+      <span class="green"><b>13</b> lines covered</span> and
       <span class="red"><b>1</b> lines missed.</span>
     </div>
 
@@ -395,7 +395,7 @@
 
             
 
-            <code class="ruby">    url = params[:url]</code>
+            <code class="ruby">    Bookmark.create(url: params[:url])</code>
           </li>
         </div>
       
@@ -406,34 +406,12 @@
 
             
 
-            <code class="ruby">    conn = PG.connect(dbname: &#39;bookmark_manager_test&#39;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="23">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    conn.exec(&quot;INSERT INTO bookmarks (url) VALUES(&#39;#{url}&#39;);&quot;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="24">
-            <span class="hits">1</span>
-            
-
-            
-
             <code class="ruby">    redirect &#39;/bookmarks&#39;</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="25">
+          <li class="never" data-hits="" data-linenumber="23">
             
             
 
@@ -444,7 +422,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="26">
+          <li class="never" data-hits="" data-linenumber="24">
             
             
 
@@ -455,7 +433,7 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="27">
+          <li class="covered" data-hits="1" data-linenumber="25">
             <span class="hits">1</span>
             
 
@@ -466,7 +444,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="28">
+          <li class="never" data-hits="" data-linenumber="26">
             
             
 
@@ -486,7 +464,7 @@
     <h3>lib/bookmark.rb</h3>
     <h4>
       <span class="yellow">
-  87.5%
+  84.62%
 </span>
 
       lines covered
@@ -495,9 +473,9 @@
     
 
     <div class="t-line-summary">
-      <b>8</b> relevant lines.
-      <span class="green"><b>7</b> lines covered</span> and
-      <span class="red"><b>1</b> lines missed.</span>
+      <b>13</b> relevant lines.
+      <span class="green"><b>11</b> lines covered</span> and
+      <span class="red"><b>2</b> lines missed.</span>
     </div>
 
     
@@ -574,8 +552,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="3" data-linenumber="7">
-            <span class="hits">3</span>
+          <li class="covered" data-hits="4" data-linenumber="7">
+            <span class="hits">4</span>
             
 
             
@@ -585,8 +563,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="3" data-linenumber="8">
-            <span class="hits">3</span>
+          <li class="covered" data-hits="4" data-linenumber="8">
+            <span class="hits">4</span>
             
 
             
@@ -629,8 +607,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="3" data-linenumber="12">
-            <span class="hits">3</span>
+          <li class="covered" data-hits="4" data-linenumber="12">
+            <span class="hits">4</span>
             
 
             
@@ -640,8 +618,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="10" data-linenumber="13">
-            <span class="hits">10</span>
+          <li class="covered" data-hits="12" data-linenumber="13">
+            <span class="hits">12</span>
             
 
             
@@ -668,12 +646,111 @@
 
             
 
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="16">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  def self.create(url:)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="17">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    if ENV[&#39;ENVIRONMENT&#39;] == &#39;test&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="18">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">      conn = PG.connect(dbname: &#39;bookmark_manager_test&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="19">
+            
+            
+
+            
+
+            <code class="ruby">    else</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="missed" data-hits="0" data-linenumber="20">
+            
+            
+
+            
+
+            <code class="ruby">      conn = PG.connect(dbname: &#39;bookmark_manager&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="21">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="22">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">    result = conn.exec(&quot;INSERT INTO bookmarks (url) VALUES(&#39;#{url}&#39;);&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="23">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="24">
+            
+            
+
+            
+
             <code class="ruby">end</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="16">
+          <li class="never" data-hits="" data-linenumber="25">
             
             
 
@@ -702,8 +779,8 @@
     
 
     <div class="t-line-summary">
-      <b>12</b> relevant lines.
-      <span class="green"><b>12</b> lines covered</span> and
+      <b>16</b> relevant lines.
+      <span class="green"><b>16</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -947,6 +1024,94 @@
       
         <div>
           <li class="never" data-hits="" data-linenumber="22">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="23">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  describe &#39;.create&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="24">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    it &#39;creates a new bookmark&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="25">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      Bookmark.create(url: &#39;http://bookmarktest.com&#39;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="26">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="27">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">      expect(Bookmark.all).to include &#39;http://bookmarktest.com&#39;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="28">
+            
+            
+
+            
+
+            <code class="ruby">    end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="29">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="30">
             
             
 
