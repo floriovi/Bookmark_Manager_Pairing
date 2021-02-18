@@ -1,5 +1,13 @@
 # frozen_string_literal: true
+require_relative './setup_test_database'
 ENV['ENVIRONMENT'] = 'test'
+
+# This runs the TRUNCATE TABLE query every time before we run our test
+RSpec.configure do |config|
+  config.before(:each) do
+    setup_test_database
+  end
+end
 # at the top of spec/spec_helper.rb
 require 'simplecov'
 SimpleCov.start

@@ -4,7 +4,7 @@
       "/Users/floriov/Projects/Projects_Makers/Bookmark_Manager_Pairing/app.rb": {
         "lines": [
           null,
-          null,
+          1,
           1,
           null,
           1,
@@ -14,10 +14,32 @@
           null,
           1,
           1,
+          null,
+          1,
           1,
           null,
           null,
           1,
+          null
+        ]
+      },
+      "/Users/floriov/Projects/Projects_Makers/Bookmark_Manager_Pairing/lib/bookmark.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          0,
+          null,
+          2,
+          8,
+          null,
+          null,
           null
         ]
       },
@@ -32,25 +54,17 @@
           1,
           1,
           null,
+          null,
           1,
-          0,
-          0,
-          null,
-          null,
-          null
-        ]
-      },
-      "/Users/floriov/Projects/Projects_Makers/Bookmark_Manager_Pairing/lib/bookmark.rb": {
-        "lines": [
-          null,
+          1,
+          1,
           null,
           1,
           null,
           1,
           1,
-          2,
-          2,
-          10,
+          1,
+          null,
           null,
           null
         ]
@@ -58,19 +72,27 @@
       "/Users/floriov/Projects/Projects_Makers/Bookmark_Manager_Pairing/spec/features/viewing_bookmarks_spec.rb": {
         "lines": [
           null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
           null,
           1,
           1,
           1,
           null,
           1,
-          0,
-          0,
+          null,
+          1,
+          1,
+          1,
           null,
           null
         ]
       }
     },
-    "timestamp": 1613641934
+    "timestamp": 1613651055
   }
 }
