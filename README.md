@@ -7,6 +7,12 @@ As a time-pressed user\
 So that I can save a website\
 I would like to add the site's address and title to bookmark manager
 
+As a user\ 
+So that I can store bookmarks for later retrieval\
+I would like to add a bookmark to bookmark manager
+
+
+
 # Instructions for how to use SQL queries to create bookmark_manager
 To setup this database from scratch, please do the following:
 1. Connect to `psql`
